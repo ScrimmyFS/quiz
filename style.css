@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#High-score {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#time {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 1625px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+
+
+    background-color: #D4181D;
+}
+
+.container {
+    position: relative;
+    left: 800px;
+    top: 200px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+
+.btn-grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+
+.btn {
+    background-color: #1B7931;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.start-btn {
+
+    font-size: 100px;
+    padding: 40px 80px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+#Highscoreform {
+    position: relative;
+    left: 800px;
+    top: 200px;
+    width: 400px;
+    height: 300px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px
+}

@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1B7931;
+}
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#Grab-scores{
+    list-style: none;
+    color: white;
+    font-size: 25px;
+   
+}
+
+/* #Go-back{
+    position: relative;
+    font-size: 25px;
+    right: 500px;
+}
+
+#Clear-scores{
+    position: relative;
+    font-size: 25px;
+    right: 150px;
+} */
+
+.score-container {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    
+    
+
+
+ }
+
+ .btngroup #Grab-scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+
+ }
